@@ -1,0 +1,46 @@
+﻿@model IEnumerable<DTO.Course>
+
+<div>
+    <p style="display:inline-block; margin-top: 30px">
+        @Html.ActionLink("New course", "ViewCourses", new { loggedid = ViewBag.loggedid }, new { @class = "btn btn-primary" })
+    </p>
+    <p style="display:inline-block; margin-top: 30px; margin-left: 770px">
+        @Html.ActionLink(linkText: "Logout", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-primary" })
+    </p>
+</div>
+
+<h2>Dashboard</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Coursenumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Teachername)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Coursenumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Teachername)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "ViewStudentCourse", new { courseid = item.CourseId, loggedid = ViewBag.loggedid }, new { @class = "btn btn-primary" }) |
+                @Html.ActionLink("Delete", "DeleteStudentCourse", new { courseid = item.CourseId, loggedid = ViewBag.loggedid }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

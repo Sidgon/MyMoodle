@@ -1,0 +1,9 @@
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\bin\Debug\MyMoodleDB.mdf
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\bin\Debug\MyMoodleDB_log.ldf
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\bin\Debug\DAL.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\bin\Debug\DAL.pdb
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\bin\Debug\DTO.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\bin\Debug\DTO.pdb
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\obj\Debug\DAL.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DAL\obj\Debug\DAL.pdb

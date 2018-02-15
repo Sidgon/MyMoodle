@@ -1,0 +1,27 @@
+﻿@model IEnumerable<DTO.Course_Week>
+
+@{
+    ViewBag.Title = "ViewStudentCourse";
+}
+
+<p style="padding-left: 15px; padding-top: 30px">
+    @Html.ActionLink("Back to Dashboard", "Index", new { loggedid = ViewBag.loggedid }, new { @class = "btn btn-primary" })
+</p>
+
+<h1 style="padding-left: 15px">@Html.Raw(ViewBag.coursenumber) | @Html.Raw(ViewBag.coursname)</h1>
+
+@foreach (var item in Model)
+{
+    <div class="container">
+        <div class="jumbotron">
+            <h2>@Html.DisplayFor(modelItem => item.Date) | @Html.DisplayFor(modelItem => item.Title)</h2>
+            <p>@Html.DisplayFor(modelItem => item.Week_objective)</p>
+            <div class="well">
+                <p>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </p>
+             </div>
+        </div>
+    </div> 
+}
+

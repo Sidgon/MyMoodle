@@ -1,0 +1,4 @@
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DTO\bin\Debug\DTO.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DTO\bin\Debug\DTO.pdb
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DTO\obj\Debug\DTO.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,11 @@
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\MyMoodleDB.mdf
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\MyMoodleDB_log.ldf
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\BLL.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\BLL.pdb
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\DAL.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\DTO.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\DAL.pdb
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\bin\Debug\DTO.pdb
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\obj\Debug\BLL.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\BLL\obj\Debug\BLL.pdb

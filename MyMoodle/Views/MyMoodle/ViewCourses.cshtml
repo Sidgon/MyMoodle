@@ -1,0 +1,44 @@
+﻿@model IEnumerable<DTO.Course>
+
+@{
+    ViewBag.Title = "ViewCourses";
+}
+
+<p style="padding-top: 30px">
+    @Html.ActionLink("Back to Dashboard", "Index", new { loggedid = ViewBag.loggedid }, new { @class = "btn btn-primary" })
+</p>
+
+<h2>Courselist</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Coursenumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Teachername)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Coursenumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Teachername)
+        </td>
+        <td>
+            @Html.ActionLink("Enroll", "CreateStudentCourse", new { courseid = item.CourseId, loggedid = ViewBag.loggedid }, new { @class = "btn btn-primary" })
+        </td>
+    </tr>
+}
+
+</table>
