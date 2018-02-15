@@ -57,3 +57,11 @@ C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\DAL.pdb
 C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\obj\Debug\MyMoodle.csprojResolveAssemblyReference.cache
 C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\obj\Debug\MyMoodle.dll
 C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\obj\Debug\MyMoodle.pdb
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\System.Net.Http.Formatting.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\System.Web.Http.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\System.Web.Http.WebHost.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\System.Net.Http.Formatting.xml
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\System.Web.Http.xml
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\System.Web.Http.WebHost.xml
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projects\Microsoft\MyMoodleASP_dot_NET_MVC_App\MyMoodle\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
